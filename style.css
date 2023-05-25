@@ -169,8 +169,16 @@ footer {
   color: #ffffff;
 }
 
-@media (min-width: 0) and (max-width: 500px)  {
-  body{
-    display: none;
+@media (max-width: 576px) {
+  body {
+    height: auto;
+  }
+
+  .container{
+    padding: 0 20px;
+  }
+
+  main {
+    justify-content: center;
   }
 }
